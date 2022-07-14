@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*  selector::after selector::before {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
