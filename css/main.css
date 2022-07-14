@@ -1,13 +1,13 @@
 html {
-  box-sizing: border-box
+  box-sizing:2 border-box;
 }
 
-* *::before *::after {
+before :after {
   box-sizing: inherit;
 }
 
 body {
-  background-color #ccc;
+  background-color: yellow;
   font-family: sans-serif;}
 
 h1 {
