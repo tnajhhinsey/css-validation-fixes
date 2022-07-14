@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-before :after {
+* before :after {
   box-sizing: inherit;
 }
 
@@ -10,10 +10,12 @@ body {
   background-color: yellow;
   font-family: sans-serif;
 }
+
 h1 {
   font-size: 1.5rem;
 }
-  article {
-    color: #666;
-    font-style: italic;
-  }
+
+article {
+  color: #666;
+  font-style: italic;
+}
